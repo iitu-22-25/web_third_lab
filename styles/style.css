@@ -1,0 +1,199 @@
+@import url("reset.css");
+
+.body {
+    height: 100vh;
+    font-family: Poppins, serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.wrapper {
+    display: flex;
+    grid-gap: 20px;
+}
+
+.wrapper_image {
+    width: 600px;
+    align-self: center;
+    margin: 20px;
+    position: relative;
+}
+
+.wrapper_form {
+    display: grid;
+    grid-template-rows: 60px 1fr;
+    margin: 20px;
+}
+
+.form_header {
+    text-align: end;
+    font-weight: bold;
+}
+
+.form_login {
+    display: grid;
+    grid-template-rows: 50px 60px 70px 80px 80px 50px 0 50px
+}
+
+.label_input {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.remember_me_and_forget_password {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    font-size: 12px;
+}
+
+.form_submit_button {
+    border: 0;
+    justify-self: end;
+    width: 200px;
+    border-radius: 25px;
+    background-color: #9E896A;
+    color: white;
+}
+
+.form_login_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 13px;
+    align-self: center;
+}
+
+.form_switch {
+    display: grid;
+    background-color: #F8EDDD;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.button_link {
+    cursor: pointer;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 40px;
+    color: #9E896A;
+}
+
+.active {
+    background-color: #9E896A;
+    color: white;
+}
+
+.form_login_description {
+    color: #5B5B5B;
+    align-self: center;
+    font-size: 14px;
+}
+
+.form_input {
+    border-radius: 25px;
+    border: 1px #9E896A solid;
+    height: 35px;
+    padding-left: 20px;
+}
+
+.label_input {
+    align-items: end;
+    position: relative;
+    font-size: 13px;
+    gap: 10px;
+    font-weight: bold;
+}
+
+.password-control {
+    position: absolute;
+    top: 50px;
+    right: 15px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: url("../public/show.png");
+}
+
+.password-control.view {
+    content: url("../public/invisible.png");
+}
+
+.remember_me {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.checkbox {
+    margin: 0;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.image_paragraph {
+    position: absolute;
+    top: 550px;
+    right: 250px;
+    display: grid;
+    grid-gap: 20px;
+}
+
+.image_title, .image_description {
+    color: white;
+}
+
+.image_description {
+    font-size: 20px;
+}
+
+.image_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1150px)  {
+    .wrapper_image {
+        width: 400px;
+    }
+    .image_paragraph {
+        top: 330px;
+        right: 50px;
+    }
+}
+
+@media screen and (max-width: 1030px)  {
+    .wrapper_image {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .wrapper_image {
+        display: none;
+    }
+    .body {
+        align-items: flex-start
+    }
+    .form_header {
+        text-align: start;
+    }
+    .form_login {
+        grid-template-rows: 100px 60px 100px 100px 100px 100px 0 50px
+    }
+    .password-control {
+        top: 70px;
+    }
+    .form_switch {
+        margin: 0;
+    }
+}
