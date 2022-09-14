@@ -62,7 +62,7 @@
     color: white;
 }
 
-.form_login_title {
+.form_title {
     text-align: center;
     font-weight: bold;
     font-size: 13px;
@@ -94,7 +94,7 @@
     color: white;
 }
 
-.form_login_description {
+.form_description {
     color: #5B5B5B;
     align-self: center;
     font-size: 14px;
