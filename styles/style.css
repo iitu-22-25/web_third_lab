@@ -36,6 +36,11 @@
     grid-template-rows: 50px 60px 70px 80px 80px 50px 0 50px
 }
 
+.form_register {
+    display: grid;
+    grid-template-rows: 50px 60px 70px 80px 80px 80px 50px 50px;
+}
+
 .label_input {
     display: grid;
     grid-template-rows: 1fr 1fr;
