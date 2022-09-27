@@ -1,0 +1,38 @@
+.dark_body {
+    background-color: #474747 !important;
+    color: white !important;
+}
+
+.dark_form_description {
+    color: white !important;
+}
+
+.dark_form_switch {
+    background-color: #605749 !important;
+    color: white !important;
+}
+
+.dark_active {
+    background-color: #7e6a4b !important;
+}
+
+.dark_form_submit_button {
+    background-color: #7e6a4b !important;
+}
+
+.dark_button_link {
+    color: white !important;
+}
+
+.dark_change_dark_light_mode {
+    color: black !important;
+    background-color: white !important;
+}
+
+.dark_form_input {
+    background-color: bisque !important;
+}
+
+.dark_image_title, .dark_image_description {
+    color: black !important;
+}

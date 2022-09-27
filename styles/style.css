@@ -1,4 +1,5 @@
 @import url("reset.css");
+@import url("dark_mode.css");
 
 .body {
     height: 100vh;
@@ -29,6 +30,17 @@
 .form_header {
     text-align: end;
     font-weight: bold;
+    display: grid;
+}
+
+.change_dark_light_mode {
+    width: 150px;
+    justify-self: center;
+    border: 0;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: #5B5B5B;
+    color: white;
 }
 
 .form_login {
