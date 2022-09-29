@@ -39,3 +39,13 @@ function change_dark_light_mode() {
     let image_description = document.querySelector(".image_description")
     image_description.classList.toggle("dark_image_description")
 }
+
+function show_modal_window() {
+    let modal_window = document.querySelector(".modal_window")
+    modal_window.classList.add("show_modal_window")
+}
+
+function close_modal_window() {
+    let modal_window = document.querySelector(".modal_window")
+    modal_window.classList.remove("show_modal_window")
+}

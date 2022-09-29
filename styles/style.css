@@ -177,6 +177,22 @@
     font-size: 30px;
     font-weight: bold;
 }
+.modal_window {
+    display: none;
+}
+.show_modal_window {
+    display: grid;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background: rgb(138, 107, 67);
+    width: 150px;
+    height: 80px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
 
 @media screen and (max-width: 1150px)  {
     .wrapper_image {

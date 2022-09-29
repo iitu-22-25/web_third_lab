@@ -9,6 +9,10 @@
     <script src="index.js" type="text/javascript"></script>
 </head>
 <body class="body">
+<div class="modal_window">
+    <h1>Вы успешно зарегистрировались</h1>
+    <button onclick="return close_modal_window(this)">close</button>
+</div>
 <div class="wrapper">
     <div class="wrapper_image">
         <img class="image" src="public/chair.png" alt="no image :(">
@@ -46,7 +50,7 @@
             </label>
 
             <a class="form_link"></a>
-            <button class="form_submit_button" type="reset">Register</button>
+            <button onclick="return show_modal_window(this)" class="form_submit_button" type="reset">Register</button>
         </form>
     </div>
 </div>
